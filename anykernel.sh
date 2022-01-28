@@ -4,7 +4,7 @@
 ## AnyKernel setup
 # begin properties
 properties() { '
-kernel.string=Chizuru by RGP
+kernel.string=Biofrost by xevan
 do.devicecheck=1
 do.modules=0
 do.cleanup=1
