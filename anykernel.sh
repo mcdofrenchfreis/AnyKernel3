@@ -4,7 +4,7 @@
 ## AnyKernel setup
 # begin properties
 properties() { '
-kernel.string=Biofrost by xevan
+kernel.string=property of xevan prjkts 
 do.devicecheck=1
 do.modules=0
 do.cleanup=1
