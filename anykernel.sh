@@ -31,6 +31,19 @@ patch_vbmeta_flag=auto;
 # import functions/variables and setup patching - see for reference (DO NOT REMOVE)
 . tools/ak3-core.sh;
 
+if mountpoint -q /data; then
+	ui_print " ";
+	ui_print "[+] Backing up boot & DTBO . . .";
+
+	dd if=/dev/block/by-name/boot of=/sdcard/backup_boot.img;
+	dd if=/dev/block/by-name/dtbo of=/sdcard/backup_dtbo.img;
+	if [ $? != 0 ]; then
+		ui_print "[!] Backup failed; proceeding anyway . . .";
+	else
+		ui_print "[+] Done";
+	fi
+fi
+
 ## AnyKernel methods (DO NOT CHANGE)
 # import patching functions/variables - see for reference
 . tools/ak3-core.sh;
