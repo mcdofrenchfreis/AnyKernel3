@@ -14,7 +14,7 @@ device.name1=beryllium
 device.name2=
 device.name3=
 device.name4=
-supported.versions=
+supported.versions=12-14
 supported.patchlevels=
 supported.vendorpatchlevels=
 '; } # end properties
