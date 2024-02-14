@@ -4,7 +4,7 @@
 ### AnyKernel setup
 # global properties
 properties() { '
-kernel.string=property of xevan || biofrostKernel
+kernel.string="您好, 感谢安装!"
 do.devicecheck=0
 do.modules=0
 do.systemless=1
