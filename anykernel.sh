@@ -4,7 +4,7 @@
 ### AnyKernel setup
 # global properties
 properties() { '
-kernel.string="您好, 感谢安装!"
+kernel.string="Yo Pierre, you wanna come out here?"
 do.devicecheck=1
 do.modules=0
 do.systemless=1
